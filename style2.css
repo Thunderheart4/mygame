@@ -1,0 +1,50 @@
+body{
+	background-color: black;
+}
+@font-face{
+	font-family: 'pixeleum48';
+	src: url('fonts/pixeleum-48.ttf');
+}
+.right{
+	height: 50px;
+	width: 50px;
+	background-color: green;
+	z-index: 50;
+	position: absolute;
+	transition: linear 1s;
+}
+.wrong{
+	height: 50px;
+	width: 50px;
+	background-color: red;
+	position: absolute;
+}
+.buy{
+	font-family: pixeleum48;
+	height: 50px;
+	display: none;
+	width: 500px;
+	background-color: black;
+	border: solid white 3px;
+	color: white;
+	opacity: 100%;
+	z-index: 60;
+}
+.buy-txt{
+	margin-left: 15px;
+	margin-top: 4px;
+}
+.bg{
+	background-color: black;
+	height: 550px;
+	width: 1282px;
+	display: none;
+	transition: linear 1s;
+	font-family: pixeleum48;
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	z-index: 100;
+	padding-top: 200px;
+}
